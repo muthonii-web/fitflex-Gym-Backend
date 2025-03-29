@@ -8,7 +8,8 @@ const middlewares = jsonServer.defaults();
 server.use(middlewares);
 server.use("/api", router);
 server.use((req, res, next) => {
-  res.header("Access-Control-Allow-Origin", "https://muthonii-web.github.io"); // The URL you put here is for the web application that you have deployed using Github Pages
+  res.header("Access-Control-Allow-Origin", "https://muthonii-web.github.io"); 
+  
   res.header("Access-Control-Allow-Headers", "*");
   next();
 });

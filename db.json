@@ -1,5 +1,14 @@
 {
 "subscription": [
+ [
+  {
+    "type": "Premium",
+    "name": "John Doe",
+    "email": "john@example.com",
+    "status": "Active"
+  }
+]
 
 ]
+
 }
