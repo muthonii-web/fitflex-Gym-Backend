@@ -1,14 +1,10 @@
 {
-"subscription": [
- [
-  {
-    "type": "Premium",
-    "name": "John Doe",
-    "email": "john@example.com",
-    "status": "Active"
-  }
-]
-
-]
-
+  "subscription": [
+    {
+      "type": "Monthly",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "status": "Active"
+    }
+  ]
 }
