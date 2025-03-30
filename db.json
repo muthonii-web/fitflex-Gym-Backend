@@ -1,3 +1,11 @@
 {
-  "subscriptions": []
+  "subscription": [
+    {
+      "id": 1,
+      "type": "Monthly",
+      "name": "John Doe",
+      "email": "john@example.com",
+      "status": "Active"
+    }
+  ]
 }
